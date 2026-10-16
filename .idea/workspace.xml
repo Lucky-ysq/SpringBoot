@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41e336a0-0886-414b-a5ac-acec67193f96" name="更改" comment="" />
+    <list default="true" id="41e336a0-0886-414b-a5ac-acec67193f96" name="更改" comment="springboot_01，springboot第一章，理解boot项目，入门boot项目">
+      <change afterPath="$PROJECT_DIR$/springboot_01_new/src/main/java/com/ysq/springboot_01_new/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_01_new/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_01_new/src/main/resources/application.properties" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,26 +39,43 @@
       <entry key="_E:/Java/springboot" value="3KiDVDSYWO6PgqZj96owzABaSAO" />
     </persistenceIdMap>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3KiDVDSYWO6PgqZj96owzABaSAO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.Springboot01NewApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Java/SpringBoot",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -82,12 +104,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1792031519633</updated>
-      <workItem from="1792031524225" duration="692000" />
+      <workItem from="1792031524225" duration="2682000" />
+      <workItem from="1792054616188" duration="573000" />
+      <workItem from="1792108921852" duration="3553000" />
     </task>
+    <task id="LOCAL-00001" summary="springboot_01，springboot第一章，理解boot项目，入门boot项目">
+      <option name="closed" value="true" />
+      <created>1792044427033</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1792044427033</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="springboot_01，springboot第一章，理解boot项目，入门boot项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot_01，springboot第一章，理解boot项目，入门boot项目" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

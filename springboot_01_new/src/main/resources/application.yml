@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+
+likes:
+  - max
+  - min
+  - serverty
+  - type
+  - is
+  - me
