@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41e336a0-0886-414b-a5ac-acec67193f96" name="更改" comment="springboot_01，springboot配置文件properties&gt;yml&gt;yaml">
-      <change afterPath="$PROJECT_DIR$/springboot_02_yml/src/main/java/com/ysq/springboot_02_yml/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_02_yml/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="41e336a0-0886-414b-a5ac-acec67193f96" name="更改" comment="springboot_02，springboot配置文件properties&gt;yml&gt;yaml,jar同目录下的配置文件也可以读取">
+      <change afterPath="$PROJECT_DIR$/springboot_03_junit/src/main/java/com/ysq/springboot_03_junit/Service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_03_junit/src/main/java/com/ysq/springboot_03_junit/Service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_04_mybatis/src/main/java/com/ysq/springboot_04_mybatis/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_04_mybatis/src/main/java/com/ysq/springboot_04_mybatis/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_01_new/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_01_new/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -65,9 +67,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.Springboot03JunitApplicationTests.contextLoads.executor": "Run",
+    "JUnit.Springboot04MybatisApplicationTests.executor": "Run",
     "Maven.springboot_02_yml [clean].executor": "Run",
     "Maven.springboot_02_yml [package].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Notification.DisplayName-DoNotAsk-Material Theme Notifications": "Material theme UI notifications",
+    "Notification.DoNotAsk-Material Theme Notifications": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -85,11 +91,53 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.Springboot01NewApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Springboot04MybatisApplicationTests">
+    <configuration name="Springboot03JunitApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_03_junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ysq.springboot_03_junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ysq.springboot_03_junit" />
+      <option name="MAIN_CLASS_NAME" value="com.ysq.springboot_03_junit.Springboot03JunitApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot04MybatisApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_04_mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ysq.springboot_04_mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ysq.springboot_04_mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.ysq.springboot_04_mybatis.Springboot04MybatisApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Springboot01NewApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="springboot_01_new" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ysq.springboot_01_new.Springboot01NewApplication" />
@@ -104,6 +152,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Springboot03JunitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot_03_junit" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ysq.springboot_03_junit.Springboot03JunitApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot04MybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot_04_mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ysq.springboot_04_mybatis.Springboot04MybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Springboot04MybatisApplicationTests" />
+        <item itemvalue="JUnit.Springboot03JunitApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -125,7 +193,8 @@
       <updated>1792031519633</updated>
       <workItem from="1792031524225" duration="2682000" />
       <workItem from="1792054616188" duration="573000" />
-      <workItem from="1792108921852" duration="6466000" />
+      <workItem from="1792108921852" duration="6548000" />
+      <workItem from="1792201247706" duration="7291000" />
     </task>
     <task id="LOCAL-00001" summary="springboot_01，springboot第一章，理解boot项目，入门boot项目">
       <option name="closed" value="true" />
@@ -143,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792113891015</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="springboot_02，springboot配置文件properties&gt;yml&gt;yaml,jar同目录下的配置文件也可以读取">
+      <option name="closed" value="true" />
+      <created>1792146778198</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1792146778198</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +229,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="springboot_01，springboot第一章，理解boot项目，入门boot项目" />
     <MESSAGE value="springboot_01，springboot配置文件properties&gt;yml&gt;yaml" />
-    <option name="LAST_COMMIT_MESSAGE" value="springboot_01，springboot配置文件properties&gt;yml&gt;yaml" />
+    <MESSAGE value="springboot_02，springboot配置文件properties&gt;yml&gt;yaml,jar同目录下的配置文件也可以读取" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot_02，springboot配置文件properties&gt;yml&gt;yaml,jar同目录下的配置文件也可以读取" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
